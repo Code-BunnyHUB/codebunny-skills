@@ -1,0 +1,31 @@
+{
+  "name": "codebunny",
+  "owner": {
+    "name": "CodeBunny",
+    "url": "https://github.com/Code-BunnyHUB"
+  },
+  "metadata": {
+    "description": "Agent skills by CodeBunny for WordPress site owners and developers."
+  },
+  "plugins": [
+    {
+      "name": "scrapelock",
+      "source": "./scrapelock",
+      "description": "Block AI training crawlers (GPTBot, ClaudeBot, CCBot), content scrapers and fake Googlebot on WordPress. Claude installs, sets up and checks the free ScrapeLock plugin with WP-CLI, and asks before anything that blocks more.",
+      "version": "1.0.0",
+      "author": {
+        "name": "CodeBunny"
+      },
+      "homepage": "https://wordpress.org/plugins/scrapelock/",
+      "repository": "https://github.com/Code-BunnyHUB/codebunny-skills",
+      "license": "GPL-2.0-or-later",
+      "keywords": [
+        "wordpress",
+        "ai-crawlers",
+        "anti-scraping",
+        "bot-protection",
+        "wp-cli"
+      ]
+    }
+  ]
+}
